@@ -186,6 +186,83 @@
 
 <img width="675" height="610" alt="image" src="https://github.com/user-attachments/assets/c68366c0-4ce3-475d-96f2-c1edccc2e998" />
 
-
 <img width="731" height="650" alt="image" src="https://github.com/user-attachments/assets/278d3c3f-d184-4fe6-89d2-82e576b6350e" />
+
+
+
+### 1. 기본 HTML + CSS + JavaScript 애니메이션
+
+- HTML: 화면 구조 만들기 (캔버스 또는 div 요소)
+- CSS: 간단한 애니메이션 (keyframes, transitions)
+- JavaScript: 움직임 제어, 이벤트 처리
+
+        설명
+        CSS 애니메이션은 간단한 움직임에 좋음 (예: 버튼 색상 변화, 간단한 위치 이동)
+        
+        JavaScript로는 더 복잡한 움직임과 제어 가능
+        
+        예를 들어 setInterval, requestAnimationFrame을 써서 프레임마다 화면을 업데이트 가능
+
+
+### 2. Canvas API (HTML5 Canvas) 
+
+- HTML <canvas> 태그
+- JavaScript Canvas API
+
+        설명
+        <canvas>는 픽셀 단위로 그래픽을 그릴 수 있는 공간
+        
+        도형, 이미지, 텍스트를 그릴 수 있고 직접 픽셀을 조작 가능
+        
+        애니메이션을 하려면 requestAnimationFrame을 써서 매 프레임마다 그림을 다시 그림
+        
+        게임, 인터랙티브한 그래픽에 많이 쓰임
+
+
+### 3. 라이브러리 활용하기 (예: p5.js, Three.js)
+
+        p5.js
+        
+        - 2D 그래픽과 애니메이션을 쉽게 만드는 라이브러리
+        - Processing 언어에서 영감을 받아 JS로 만든 것
+        - 간단한 코드로 그리기, 움직임 제어 가능
+
+        Three.js
+        
+        - 3D 그래픽과 애니메이션 라이브러리
+        - WebGL을 쉽게 쓸 수 있도록 도와줌
+        - 3D 모델, 조명, 카메라 효과 등을 만들 수 있음
+
+### 추천 시작 방법
+
+1단계: 기본 HTML/CSS/JS로 간단한 움직임 만들어 보기
+
+- 버튼 누르면 박스가 움직이거나 색이 변하는 것부터 시작
+
+2단계: Canvas API 사용해서 간단한 그림 그리기 + 움직이기
+
+- 원이나 사각형이 움직이게 만들어 보기
+- requestAnimationFrame 공부하기
+
+3단계: p5.js 써보기
+
+- p5.js 공식 사이트에서 튜토리얼 참고
+- 예제 보고 따라해보기
+
+### 참고 영상 및 자료
+
+기본 애니메이션
+
+- CSS 애니메이션 기초 강좌 - 생활코딩
+- JavaScript 애니메이션 기초 - 생활코딩
+
+Canvas API
+
+- Canvas Tutorial for Beginners (by Traversy Media)
+- MDN Canvas API 문서
+
+p5.js
+
+- p5.js Crash Course by The Net Ninja
+- p5.js 공식 튜토리얼
 
